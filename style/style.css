@@ -1,5 +1,8 @@
 /* font awesome link 
 <script src="https://kit.fontawesome.com/89f266519c.js" crossorigin="anonymous"></script> */
+main{
+    font-family: 'Poppins', sans-serif;
+}
 
 /* banner styles */
 .banner{
@@ -16,8 +19,11 @@
     height: 230px;
     font-weight: 700px;
     font-size: 64px;
+    color: #FFFFFF;
+    padding-top: 207px;
+    padding-left: 156px;
 }
-.button-style{
+.banner-title button{
     background-color: #E02C6D;
     width: 168px;
     height: 44px;
@@ -25,4 +31,25 @@
 .banner-image img{
     width: 556.01px;
     height: 438px;
+}
+
+/* player information */
+.player{
+    background-color: #FFFFFF;
+}
+.player-info{
+    background-color: #FFFFFF;
+    height: 200px;
+    width: 200px;
+    font-size: 15px;
+}
+.player-image img{
+    height: 200px;
+    width: 200px;
+}
+.player-boxlook{
+    border: 1px solid;
+    box-shadow: 5px 5px 3px 6px rgb(254, 240, 240);
+    margin;
+    padding-left: 20px;
 }
